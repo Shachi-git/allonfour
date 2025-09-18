@@ -27,13 +27,13 @@ const locations = [
 ];
 </script>
 <template>
-    <section class="w-full bg-white py-16 px-6">
+    <section class="w-full bg-white py-10 px-6">
         <div class="max-w-6xl mx-auto space-y-12">
             <!-- Header -->
             <div class="text-center space-y-4">
                 <h1 class="text-4xl font-bold text-center">
                     Our <span class="text-highlight-blue">Locations</span></h1>
-                <p class="text-lg text-gray-700">Discover Our Convenient Locations Near You</p>
+                <p class="text-lg text-gray">Discover Our Convenient Locations Near You</p>
             </div>
 
             <!-- Location Cards -->
@@ -47,7 +47,9 @@ const locations = [
                     <h3 class="text-xl font-semibold text-gray-800">{{ location.name }}</h3>
                     <p class="text-gray-700">{{ location.address }}</p>
                     <p class="text-gray-700">{{ location.city }}</p>
-                    <CallButton class="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white" />
+                    <div class="mt-7">
+                        <CallButton class="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white" />
+                    </div>
                 </div>
             </div>
             <div class="text-center pt-10 space-y-2">

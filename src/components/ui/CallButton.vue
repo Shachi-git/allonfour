@@ -16,6 +16,6 @@ const mergedClass = computed(() =>
 
 <template>
     <a href="tel:8777319866" :class="mergedClass">
-        Call (877) 731-9866
+        Call (877) 696-4738
     </a>
 </template>

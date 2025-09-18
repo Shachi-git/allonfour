@@ -9,7 +9,7 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
             <!-- Section Title -->
             <h1 class="text-4xl font-bold max-w-xl text-center">
                 Read About Our Patients Incredible
-                All-on-4™ <span class="text-highlight-blue">Transformation</span>!
+                All-on-4™ <span class="text-highlight-blue">Transformation!</span>
             </h1>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border border-gray-700/20 rounded-2xl p-5">
                 <!-- Left: Before & After Images -->

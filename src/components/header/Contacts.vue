@@ -21,7 +21,7 @@ onClickOutside(contactRef, () => (showContact.value = false))
         <a href="tel:8773499270"
             class="bg-blue-200 px-3 py-1 rounded-2xl flex flex-row items-center gap-1 transform transition-transform duration-200 hover:scale-105">
             <PhoneIcon class="w-4 h-4 text-blue-500" />
-            <span class="text-lg text-blue-500 font-semibold">(877) 349-9270</span>
+            <span class="text-lg text-blue-500 font-semibold">(877) 696-4738</span>
         </a>
     </div>
 
@@ -42,7 +42,7 @@ onClickOutside(contactRef, () => (showContact.value = false))
                     <a href="tel:8773499270"
                         class="bg-blue-500 text-white px-3 py-2 rounded-lg flex flex-row items-center gap-2 w-full justify-center transform transition-transform duration-200 active:scale-105">
                         <PhoneIcon class="w-5 h-5" />
-                        <span class="font-semibold">(877) 349-9270</span>
+                        <span class="font-semibold">(877) 696-4738</span>
                     </a>
                 </div>
             </Transition>
