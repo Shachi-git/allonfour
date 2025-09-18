@@ -18,8 +18,8 @@ const pages2 = [BoardCertifiedSurgeons, AllonFourResults, LocationDirectory]
 </script>
 
 <template>
-    <div class="flex flex-col">
-        <div class="flex" id="Home" name="Home">
+    <div class="flex flex-col w-full">
+        <div id="Home" name="Home">
             <Home />
         </div>
 
@@ -30,26 +30,16 @@ const pages2 = [BoardCertifiedSurgeons, AllonFourResults, LocationDirectory]
             <component :is="Component" />
         </div>
 
-        <div class="flex">
-            <Banner />
-        </div>
-        <div>
-            <SmileJourney />
-        </div>
-        <div>
-            <InfoSection />
-        </div>
-        <div>
-            <AppointmentBanner />
-        </div>
+        <Banner />
+        <SmileJourney />
+        <InfoSection />
+        <AppointmentBanner />
         <div v-for="(Component, index) in pages2" :key="index" :class="[
-            'flex w-full  p-4',
+            'p-4',
             index % 2 === 0 ? 'bg-white' : 'bg-gray-100'
         ]">
             <component :is="Component" />
         </div>
-        <div>
-            <AllonFourPricingNotice />
-        </div>
+        <AllonFourPricingNotice />
     </div>
 </template>

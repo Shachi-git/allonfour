@@ -14,7 +14,7 @@ import ConsultationButton from "../ui/ConsultationButton.vue";
 
             <!-- Smile Gallery -->
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6">
-                <img v-for="n in 6" :key="n" :src="`/smile/smile${n}.webp`" :alt="`Smile ${n}`"
+                <img v-for="n in 6" :key="n" :src="`/allonfour/smile/smile${n}.webp`" :alt="`Smile ${n}`"
                     class="rounded-md shadow-md object-cover w-full h-auto" />
             </div>
 
