@@ -11,22 +11,22 @@ const surgeons = [
     {
         name: "Dr. Eugenie Lee, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: import.meta.env.BASE_URL + "surgeon/Dr. Eugenie Lee.webp"
+        image: import.meta.env.BASE_URL + "surgeon/Dr.Eugenie-Lee.webp"
     },
     {
         name: "Dr. Daniel Schinazi, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: import.meta.env.BASE_URL + "surgeon/Dr. Daniel Schinazi.webp"
+        image: import.meta.env.BASE_URL + "surgeon/Dr.Daniel-Schinazi.webp"
     },
     {
         name: "Dr. Daniel Nejat, DMD",
         title: "Diplomate, American Board of Periodontology",
-        image: import.meta.env.BASE_URL + "surgeon/Dr. Daniel Nejat.webp"
+        image: import.meta.env.BASE_URL + "surgeon/Dr.Daniel-Nejat.webp"
     },
     {
         name: "Dr. Anne Marie, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: import.meta.env.BASE_URL + "surgeon/Dr. Anne Marie.webp"
+        image: import.meta.env.BASE_URL + "surgeon/Dr.Anne-Marie.webp"
     }
 ];
 </script>
