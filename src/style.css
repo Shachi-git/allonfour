@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: url("./assets/Desktop-bg.png");
+  --second-opinion-background: url("./assets/second-opinion-bg.png");
+  --text-gray: #6e6e6e;
+  --highlight-blue: #1e70f5;
+  --highlight-orange: #fc640c;
+  --banner-background: #0c0052;
+}
+
+.background {
+  background-image: var(--background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.banner-bg {
+  background-color: var(--banner-background);
+}
+.SO-bg {
+  position: absolute;
+  width: 100%;
+  min-height: 90%;
+  background-image: var(--second-opinion-background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.text-highlight-blue {
+  color: var(--highlight-blue);
+}
+.text-highlight-orange {
+  color: var(--highlight-orange);
+}
+.text-gray {
+  color: var(--text-gray);
+}
