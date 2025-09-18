@@ -3,7 +3,7 @@
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
             <!-- Logo on Left -->
             <div class="flex items-center justify-center md:justify-start w-full sm:w-auto">
-                <img src="/public/AOF-Logo.webp" alt="All-On-Four Logo" class="h-8 sm:h-10 object-contain" />
+                <img src="/AOF-Logo.webp" alt="All-On-Four Logo" class="h-8 sm:h-10 object-contain" />
             </div>
 
             <!-- Centered Copyright -->

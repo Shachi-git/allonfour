@@ -14,10 +14,8 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border border-gray-700/20 rounded-2xl p-5">
                 <!-- Left: Before & After Images -->
                 <div class="grid grid-cols-2 gap-4 max-w-lg p-2 items-center">
-                    <img src="/public/Before.png" alt="Before - Decay"
-                        class="rounded-md shadow-md w-full object-cover" />
-                    <img src="/public/After.png" alt="After - Restored"
-                        class="rounded-md shadow-md w-full object-cover" />
+                    <img src="/Before.png" alt="Before - Decay" class="rounded-md shadow-md w-full object-cover" />
+                    <img src="/After.png" alt="After - Restored" class="rounded-md shadow-md w-full object-cover" />
                 </div>
 
                 <!-- Right: Case Study Text -->
@@ -44,10 +42,8 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
 
                 <!-- Right: Case Study Text -->
                 <div class="grid md:hidden grid-cols-2 gap-4 max-w-lg p-2 items-center">
-                    <img src="/public/Before.png" alt="Before - Decay"
-                        class="rounded-md shadow-md w-full object-cover" />
-                    <img src="/public/After.png" alt="After - Restored"
-                        class="rounded-md shadow-md w-full object-cover" />
+                    <img src="/Before.png" alt="Before - Decay" class="rounded-md shadow-md w-full object-cover" />
+                    <img src="/After.png" alt="After - Restored" class="rounded-md shadow-md w-full object-cover" />
                 </div>
                 <div class="space-y-4">
                     <h2 class="text-3xl font-bold text-gray-800">
@@ -64,10 +60,8 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
                     </div>
                 </div>
                 <div class="hidden md:grid grid-cols-2 gap-4 max-w-lg p-2 items-center">
-                    <img src="/public/Before.png" alt="Before - Decay"
-                        class="rounded-md shadow-md w-full object-cover" />
-                    <img src="/public/After.png" alt="After - Restored"
-                        class="rounded-md shadow-md w-full object-cover" />
+                    <img src="/Before.png" alt="Before - Decay" class="rounded-md shadow-md w-full object-cover" />
+                    <img src="/After.png" alt="After - Restored" class="rounded-md shadow-md w-full object-cover" />
                 </div>
             </div>
         </div>

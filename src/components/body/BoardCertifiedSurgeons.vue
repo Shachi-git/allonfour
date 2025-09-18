@@ -6,27 +6,27 @@ const surgeons = [
     {
         name: "Dr. Richard Nejat, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: "/public/surgeon/Dr.Richard-Nejat.webp"
+        image: "/surgeon/Dr.Richard-Nejat.webp"
     },
     {
         name: "Dr. Eugenie Lee, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: "/public/surgeon/Dr. Eugenie Lee.webp"
+        image: "/surgeon/Dr. Eugenie Lee.webp"
     },
     {
         name: "Dr. Daniel Schinazi, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: "/public/surgeon/Dr. Daniel Schinazi.webp"
+        image: "/surgeon/Dr. Daniel Schinazi.webp"
     },
     {
         name: "Dr. Daniel Nejat, DMD",
         title: "Diplomate, American Board of Periodontology",
-        image: "/public/surgeon/Dr. Daniel Nejat.webp"
+        image: "/surgeon/Dr. Daniel Nejat.webp"
     },
     {
         name: "Dr. Anne Marie, DDS",
         title: "Diplomate, American Board of Periodontology",
-        image: "/public/surgeon/Dr. Anne Marie.webp"
+        image: "/surgeon/Dr. Anne Marie.webp"
     }
 ];
 </script>

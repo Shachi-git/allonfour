@@ -8,7 +8,7 @@ import CallButton from "../ui/CallButton.vue";
             class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start px-6 lg:px-12 py-10 max-w-6xl mx-auto border border-gray-700/10 rounded-2xl">
             <!-- Image Section -->
             <div class="w-full">
-                <img src="/public/doctor-and-patient-1.png" alt="Section image"
+                <img src="/doctor-and-patient-1.png" alt="Section image"
                     class="rounded-lg shadow-md w-full h-auto object-cover" />
             </div>
 
