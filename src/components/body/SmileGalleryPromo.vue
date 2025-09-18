@@ -2,7 +2,7 @@
 import ConsultationButton from "../ui/ConsultationButton.vue";
 </script>
 <template>
-    <section class="w-full py-16 px-6">
+    <section class="w-full py-10 px-6">
         <div class="max-w-6xl mx-auto text-center space-y-8">
             <!-- Top Message -->
             <h2 class="text-3xl font-bold text-gray-800">
