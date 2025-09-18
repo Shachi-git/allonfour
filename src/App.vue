@@ -1,14 +1,13 @@
 <script setup>
 import Header from './sections/Header.vue'
 import Body from './sections/Body.vue'
-import Footer from './sections/Footer.vue';
-
+import Footer from './sections/Footer.vue'
 </script>
 
 <template>
-  <div>
+  <div class="w-full max-w-full overflow-x-hidden">
     <Header />
-    <main>
+    <main class="w-full max-w-full">
 
       <Body />
     </main>

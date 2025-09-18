@@ -6,7 +6,7 @@ import CallButton from "../ui/CallButton.vue";
 
 <template>
     <div class="w-full banner-bg text-white py-12 px-6">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <!-- Text Section -->
             <div class="space-y-4">
                 <h1 class="text-4xl font-bold">
@@ -14,7 +14,7 @@ import CallButton from "../ui/CallButton.vue";
                 </h1>
                 <p class="text-lg leading-relaxed">
                     Don't wait! Our current promotion for All-on-4 expires on <span class="font-semibold">June 30th
-                        2023</span>.
+                        2024</span>.
                     When you book, you will lock in your discount and first <span class="font-semibold">FREE
                         Consultation</span>.
                 </p>

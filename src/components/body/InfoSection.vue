@@ -35,7 +35,8 @@ She aims to make every step easy and to ensure your total comfort throughout the
     <div>
         <div v-for="(section, index) in sections" :key="index"
             :class="['w-full py-10', section.reverse ? 'bg-white' : 'bg-gray-100']">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start px-6 lg:px-12 py-10 max-w-6xl mx-auto">
+            <div
+                class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start px-6 lg:px-12 py-10 w-full max-w-6xl mx-auto">
                 <!-- Image Section -->
                 <div :class="['w-full', section.reverse ? 'lg:order-2' : 'lg:order-1']">
                     <img :src="section.image" alt="Section image"

@@ -5,7 +5,7 @@ import CallButton from "../ui/CallButton.vue";
 <template>
     <div class="w-full py-10 bg-gray-100">
         <div
-            class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start px-6 lg:px-12 py-10 max-w-6xl mx-auto border border-gray-700/10 rounded-2xl">
+            class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start px-6 lg:px-12 py-10 w-full max-w-6xl mx-auto border border-gray-700/10 rounded-2xl">
             <!-- Image Section -->
             <div class="w-full">
                 <img src="/doctor-and-patient-1.png" alt="Section image"

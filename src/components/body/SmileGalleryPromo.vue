@@ -1,9 +1,12 @@
 <script setup>
 import ConsultationButton from "../ui/ConsultationButton.vue";
+
+const baseUrl = import.meta.env.BASE_URL;
 </script>
+
 <template>
     <section class="w-full py-10 px-6">
-        <div class="max-w-6xl mx-auto text-center space-y-8">
+        <div class="w-full max-w-6xl mx-auto text-center space-y-8">
             <!-- Top Message -->
             <h2 class="text-3xl font-bold text-gray-800">
                 Here to Help All-on-4™ <span class="text-highlight-blue">step</span>, Every of the Way!
@@ -13,8 +16,8 @@ import ConsultationButton from "../ui/ConsultationButton.vue";
             </p>
 
             <!-- Smile Gallery -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6">
-                <img v-for="n in 6" :key="n" :src="`/allonfour/smile/smile${n}.webp`" :alt="`Smile ${n}`"
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6 px-8">
+                <img v-for="n in 6" :key="n" :src="`${baseUrl}smile/smile${n}.webp`" :alt="`Smile ${n}`"
                     class="rounded-md shadow-md object-cover w-full h-auto" />
             </div>
 

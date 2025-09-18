@@ -5,10 +5,10 @@ import ConsultationButton from "../ui/ConsultationButton.vue";
 
 <template>
     <div class="space-y-4 justify-center py-12 items-center flex flex-col w-full">
-        <h1 class="text-4xl font-semibold max-w-xl text-center">
+        <h1 class="text-4xl font-semibold w-full mx-auto max-w-xl text-center">
             A <span class="text-highlight-blue">Transformation</span> in Confidence and Smile
         </h1>
-        <div class="flex flex-col items-center max-w-[800px] w-full space-y-4">
+        <div class="flex flex-col items-center mx-auto max-w-[800px] w-full space-y-4">
             <div class="w-full aspect-video max-w-[800px]">
                 <VideoPlayer />
             </div>

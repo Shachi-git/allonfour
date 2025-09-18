@@ -11,7 +11,7 @@ import CallButton from "../ui/CallButton.vue";
 
     <!-- Content Layer -->
     <div
-      class="relative z-10 flex flex-col lg:flex-row gap-4 py-6 items-center justify-center px-4 max-w-[640px] mx-auto">
+      class="relative z-10 flex flex-col w-full lg:flex-row gap-4 py-6 items-center justify-center px-4 max-w-[640px] mx-auto">
       <div class="space-y-4">
         <h1 class="text-4xl font-semibold text-white leading-tight text-center md:text-start">
           Get a FREE Second Opinion and Best Price Guarantee on

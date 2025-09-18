@@ -33,12 +33,12 @@ const surgeons = [
 
 <template>
     <section class="w-full bg-white py-16 px-6">
-        <div class="max-w-7xl mx-auto text-center space-y-6">
+        <div class="max-w-7xl mx-auto text-center space-y-6 w-full">
             <!-- Header -->
             <h1 class="text-4xl font-bold text-center">
                 Our Board <span class="text-highlight-blue">Certified</span> All-on-4™ Surgeons
             </h1>
-            <p class="text-gray-700 text-lg max-w-3xl mx-auto">
+            <p class="text-gray-700 text-lg max-w-3xl mx-auto w-full">
                 Our team of board-certified periodontists are experts in All-on-4™ dental implant surgeries. Each doctor
                 is a Diplomate of the American Board of Periodontology and holds advanced credentials in dental surgery
                 and implantology.

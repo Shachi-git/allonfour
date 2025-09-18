@@ -4,7 +4,7 @@ import ConsultationForm from './form/ConsultationForm.vue';
 </script>
 
 <template>
-    <div class="min-h-screen w-full relative shadow-xs z-5">
+    <div class="min-h-screen w-full relative flex shadow-xs z-5">
         <!-- 1. Background Section -->
         <div class="background absolute inset-0"></div>
 
@@ -12,14 +12,14 @@ import ConsultationForm from './form/ConsultationForm.vue';
         <div class="relative z-10 flex flex-col">
             <div class="flex flex-col lg:flex-row gap-4 py-6 items-center w-full">
                 <!-- Left Column: Text + Offer -->
-                <div class="flex flex-col max-w-[640px] space-y-2 px-4">
+                <div class="flex flex-col max-w-[640px] w-full mx-auto space-y-2 px-4">
                     <!-- Header Section -->
                     <div class="space-y-2">
                         <h2 class="text-2xl font-base text-highlight-blue">
                             #1 Dental Implant Centers in the
                             <span class="text-highlight-orange font-semibold">Tri-State area</span>
                         </h2>
-                        <h1 class="text-4xl font-semibold text-blue-500 leading-tight">
+                        <h1 class="text-4xl font-semibold text-blue-500">
                             Rediscover Your Smile with All-on-4™ Dental Implants
                         </h1>
                         <h3 class="text-xl text-highlight-blue font-semibold">
@@ -64,7 +64,7 @@ import ConsultationForm from './form/ConsultationForm.vue';
                 </div>
 
                 <!-- Right Column: Consultation Form -->
-                <div class="w-[400px] md:w-[500px] flex-shrink-0 lg:ml-[-80px]">
+                <div class="w-[400px] md:w-[500px] flex-shrink-0 lg:ml-[-80px] lg:mt-12">
                     <ConsultationForm />
                 </div>
             </div>

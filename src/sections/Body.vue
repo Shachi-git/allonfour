@@ -18,13 +18,12 @@ const pages2 = [BoardCertifiedSurgeons, AllonFourResults, LocationDirectory]
 </script>
 
 <template>
-    <div class="flex flex-col w-full">
+    <div class="w-full">
         <div id="Home" name="Home">
             <Home />
         </div>
 
         <div v-for="(Component, index) in pages" :key="index" :class="[
-            'flex w-full  p-4',
             index % 2 === 0 ? 'bg-white' : 'bg-gray-100'
         ]">
             <component :is="Component" />
@@ -35,7 +34,6 @@ const pages2 = [BoardCertifiedSurgeons, AllonFourResults, LocationDirectory]
         <InfoSection />
         <AppointmentBanner />
         <div v-for="(Component, index) in pages2" :key="index" :class="[
-            'p-4',
             index % 2 === 0 ? 'bg-white' : 'bg-gray-100'
         ]">
             <component :is="Component" />

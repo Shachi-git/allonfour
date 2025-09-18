@@ -5,15 +5,15 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
 
 <template>
     <section class="w-full py-5 px-6">
-        <div class="max-w-6xl mx-auto space-y-12 items-center justify-center flex flex-col">
+        <div class="mx-auto space-y-12 items-center justify-center flex flex-col">
             <!-- Section Title -->
-            <h1 class="text-4xl font-bold max-w-xl text-center">
+            <h1 class="w-full mx-auto text-4xl font-bold max-w-xl text-center">
                 Read About Our Patients Incredible
                 All-on-4™ <span class="text-highlight-blue">Transformation!</span>
             </h1>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border border-gray-700/20 rounded-2xl p-5">
                 <!-- Left: Before & After Images -->
-                <div class="grid grid-cols-2 gap-4 max-w-lg p-2 items-center">
+                <div class="grid grid-cols-2 gap-4 w-full mx-auto max-w-lg p-2 items-center">
                     <img src="/Before.png" alt="Before - Decay" class="rounded-md shadow-md w-full object-cover" />
                     <img src="/After.png" alt="After - Restored" class="rounded-md shadow-md w-full object-cover" />
                 </div>
@@ -41,7 +41,7 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
 
 
                 <!-- Right: Case Study Text -->
-                <div class="grid md:hidden grid-cols-2 gap-4 max-w-lg p-2 items-center">
+                <div class="grid md:hidden grid-cols-2 gap-4 w-full mx-auto max-w-lg p-2 items-center">
                     <img src="/Before.png" alt="Before - Decay" class="rounded-md shadow-md w-full object-cover" />
                     <img src="/After.png" alt="After - Restored" class="rounded-md shadow-md w-full object-cover" />
                 </div>
@@ -59,7 +59,7 @@ import SmileGalleryPromo from "./SmileGalleryPromo.vue";
                         <ConsultationButton />
                     </div>
                 </div>
-                <div class="hidden md:grid grid-cols-2 gap-4 max-w-lg p-2 items-center">
+                <div class="hidden md:grid grid-cols-2 gap-4 w-full mx-auto max-w-lg p-2 items-center">
                     <img src="/Before.png" alt="Before - Decay" class="rounded-md shadow-md w-full object-cover" />
                     <img src="/After.png" alt="After - Restored" class="rounded-md shadow-md w-full object-cover" />
                 </div>

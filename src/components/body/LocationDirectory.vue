@@ -28,7 +28,7 @@ const locations = [
 </script>
 <template>
     <section class="w-full bg-white py-10 px-6">
-        <div class="max-w-6xl mx-auto space-y-12">
+        <div class="w-full max-w-6xl mx-auto space-y-12">
             <!-- Header -->
             <div class="text-center space-y-4">
                 <h1 class="text-4xl font-bold text-center">
