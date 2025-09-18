@@ -1,9 +1,6 @@
 <script setup>
 import ConsultationButton from "../ui/ConsultationButton.vue";
-
-const baseUrl = import.meta.env.BASE_URL;
 </script>
-
 <template>
     <section class="w-full py-16 px-6">
         <div class="max-w-6xl mx-auto text-center space-y-8">
@@ -17,7 +14,7 @@ const baseUrl = import.meta.env.BASE_URL;
 
             <!-- Smile Gallery -->
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6">
-                <img v-for="n in 6" :key="n" :src="`${baseUrl}smile/smile${n}.webp`" :alt="`Smile ${n}`"
+                <img v-for="n in 6" :key="n" :src="`/smile/smile${n}.webp`" :alt="`Smile ${n}`"
                     class="rounded-md shadow-md object-cover w-full h-auto" />
             </div>
 
