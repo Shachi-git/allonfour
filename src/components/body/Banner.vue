@@ -30,7 +30,7 @@ import CallButton from "../ui/CallButton.vue";
 
         <div class="flex flex-col sm:flex-row gap-3 pt-4">
           <ConsultationButton class="flex-grow" />
-          <CallButton class="border border-blue-600 text-white hover:text-white hover:bg-blue-600" />
+          <CallButton class="border border-white text-white  hover:bg-white hover:text-blue-600" />
         </div>
       </div>
     </div>

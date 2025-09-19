@@ -7,12 +7,12 @@ import { StarIcon } from '@heroicons/vue/24/solid';
     <div
         class="relative flex flex-col lg:flex-row items-center justify-center w-full p-6 lg:p-8 space-y-6 lg:space-y-0 gap-10">
         <!-- Left: Image Section -->
-        <div class="lg:relative w-full mx-auto lg:max-w-[470px]">
+        <div class="lg:relative lg:max-w-[470px]">
             <div class="w-full p-1 lg:p-10">
                 <img src="../../assets/ALLAN GALLAWAY-Experience.png" alt="Dentist with patient"
                     class="rounded-lg shadow-md w-full h-auto z-10 object-cover" />
                 <div
-                    class="absolute top-0 left-0 bg-blue-600 text-white border-1 border-white px-6 py-6 rounded-full text-center">
+                    class="absolute top-2 left-2 md:top-0 md:left-0 bg-blue-600 text-white border-1 border-white  p-6 rounded-full text-center">
                     <h2 class="text-xl font-bold leading-tight">
                         <span class="block">25</span>
                         <span class="block">Years</span>
@@ -22,7 +22,7 @@ import { StarIcon } from '@heroicons/vue/24/solid';
         </div>
 
         <!-- Right: Text Section -->
-        <div class="w-full space-y-4 mx-auto lg:max-w-[400px] ">
+        <div class="space-y-4 lg:max-w-[400px] ">
             <h1 class="text-4xl font-bold text-black text-center md:text-start">
                 What Our <span class="text-highlight-blue">Patients</span> Say
             </h1>

@@ -4,7 +4,7 @@ import ConsultationForm from './form/ConsultationForm.vue';
 </script>
 
 <template>
-    <div class="min-h-screen w-full relative flex shadow-xs z-5">
+    <div class="min-h-screen w-full relative px-3 md:px-0 md:flex shadow-xs z-5">
         <!-- 1. Background Section -->
         <div class="background absolute inset-0"></div>
 

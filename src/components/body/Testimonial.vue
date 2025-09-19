@@ -4,7 +4,7 @@ import ConsultationButton from "../ui/ConsultationButton.vue";
 </script>
 
 <template>
-    <div class="space-y-4 justify-center py-12 items-center flex flex-col w-full">
+    <div class="space-y-4 justify-center p-10 items-center flex flex-col w-full">
         <h1 class="text-4xl font-semibold w-full mx-auto max-w-xl text-center">
             A <span class="text-highlight-blue">Transformation</span> in Confidence and Smile
         </h1>
