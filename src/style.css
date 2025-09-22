@@ -1,12 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: url("./assets/Desktop-bg.png");
-  --second-opinion-background: url("./assets/second-opinion-bg.png");
+  --background: url("/copyparty/u/johnpaul.olimpo/allonfour/Desktop-bg.webp");
+  --second-opinion-background: url("./assets/second-opinion-bg.webp");
   --text-gray: #6e6e6e;
   --highlight-blue: #1e70f5;
   --highlight-orange: #fc640c;
   --banner-background: #0c0052;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
 }
 
 .background {
@@ -14,7 +19,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
 }
 .banner-bg {
   background-color: var(--banner-background);
@@ -30,9 +34,6 @@
   z-index: -1;
 }
 
-.text-highlight-blue {
-  color: var(--highlight-blue);
-}
 .text-highlight-orange {
   color: var(--highlight-orange);
 }

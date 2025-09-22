@@ -1,6 +1,6 @@
 <script setup>
 import Header from './sections/Header.vue'
-import Body from './sections/Body.vue'
+import Hero from './sections/Hero.vue'
 import Footer from './sections/Footer.vue'
 </script>
 
@@ -9,7 +9,7 @@ import Footer from './sections/Footer.vue'
     <Header />
     <main class="w-full max-w-full">
 
-      <Body />
+      <Hero />
     </main>
     <Footer />
   </div>

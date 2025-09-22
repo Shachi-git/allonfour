@@ -16,38 +16,42 @@ const features = [
     "Minimally Invasive All-On-4™ (no incisions or bone/gum cutting)",
     "No Hard Sell. We listen, educate, and advise. That's it."
 ]
-
 </script>
 
 <template>
     <div class="w-full bg-white p-8 space-y-3">
+        <!-- Header -->
         <div>
-            <p class="text-center text-sm text-neutral-400">OUR BEST SERVICE</p>
+            <p class="text-center text-sm text-neutral-700">OUR BEST SERVICE</p>
             <h1 class="text-4xl font-bold text-black text-center">
-                What Makes Us <span class="text-highlight-blue">Unique</span>?</h1>
+                What Makes Us <span class="text-blue-700">Unique</span>?
+            </h1>
         </div>
 
-        <div class="overflow-x-auto w-full max-w-full justify-start md:justify-center flex">
-            <table class="min-w-[800px] table-fixed border border-gray-300 text-left">
-                <thead class="bg-gray-100">
+        <!-- Table -->
+        <div class="overflow-x-auto w-full max-w-full justify-start md:justify-center flex" tabindex="0">
+            <table class="min-w-[800px] table-fixed border border-gray-200 rounded-lg overflow-hidden shadow-lg">
+                <thead class="bg-gray-100 border-b border-gray-300">
                     <tr>
-                        <th class="px-4 py-2 w-2/3 font-medium text-gray-700">Features</th>
-                        <th class="px-4 py-2 w-1/6 font-medium text-red-500 text-center">Others</th>
-                        <th class="px-4 py-2 w-1/6 font-medium text-green-600 text-center">All-On-Four</th>
+                        <th class="px-4 py-2 w-2/3 font-medium text-gray-700 border-r border-gray-200">Features</th>
+                        <th class="px-4 py-2 w-1/6 font-medium text-center text-gray-600 border-r border-gray-200">
+                            Others
+                        </th>
+                        <th class="px-4 py-2 w-1/6 font-medium text-center text-blue-700">All-On-Four</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr v-for="(feature, index) in features" :key="index" class="border-t">
-                        <td class="px-4 py-3 text-gray-800">{{ feature }}</td>
-                        <td class="px-4 py-3 text-center text-red-500">
-                            <div class="bg-red-200 p-1 rounded-full flex justify-center">
-                                <XMarkIcon class="h-5" />
+                <tbody class="divide-y divide-gray-200">
+                    <tr v-for="(feature, index) in features" :key="index"
+                        :class="index % 2 === 0 ? 'bg-white' : 'bg-gray-50'">
+                        <td class="px-4 py-3 text-gray-800 border-r border-gray-200">{{ feature }}</td>
 
-                            </div>
+                        <td class="px-4 py-3 text-center border-r border-gray-200">
+                            <XMarkIcon class="h-5 text-red-600 mx-auto" aria-hidden="true" />
                         </td>
-                        <td class="px-4 py-3 text-center text-green-600  ">
-                            <div class="bg-green-200 p-1 rounded-full flex justify-center">
-                                <CheckIcon class="h-5" />
+
+                        <td class="px-4 py-3 text-center">
+                            <div class="bg-highlight-blue/10 text-blue-700 p-1 rounded-full flex justify-center">
+                                <CheckIcon class="h-5" aria-hidden="true" />
                             </div>
                         </td>
                     </tr>

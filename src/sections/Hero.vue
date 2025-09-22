@@ -11,7 +11,7 @@ import BoardCertifiedSurgeons from '../components/body/BoardCertifiedSurgeons.vu
 import AllonFourResults from '../components/body/AllonFourResults.vue'
 import LocationDirectory from '../components/body/LocationDirectory.vue'
 import AllonFourPricingNotice from '../components/body/AllonFourPricingNotice.vue'
-
+import ConsultationForm from '../components/body/form/ConsultationForm.vue'
 
 const pages = [Testimonial, Experience, UniqueChart]
 const pages2 = [BoardCertifiedSurgeons, AllonFourResults, LocationDirectory]
@@ -19,8 +19,15 @@ const pages2 = [BoardCertifiedSurgeons, AllonFourResults, LocationDirectory]
 
 <template>
     <div class="w-full">
-        <div id="Home" name="Home">
+        <!-- Home Section -->
+        <div id="Home" name="Home" class="relative">
             <Home />
+
+            <!-- Floating Consultation Form -->
+            <div
+                class="absolute left-1/2 bottom-[-15rem] md:bottom-[-12rem] lg:bottom-[-6rem] transform -translate-x-1/2 w-full max-w-4xl px-4">
+                <ConsultationForm />
+            </div>
         </div>
 
         <div v-for="(Component, index) in pages" :key="index" :class="[

@@ -15,7 +15,7 @@ import CallButton from "../ui/CallButton.vue";
       <div class="space-y-4">
         <h1 class="text-4xl font-semibold text-white leading-tight text-center md:text-start">
           Get a FREE Second Opinion and Best Price Guarantee on
-          <span class="text-highlight-blue">Dental Implants!</span>
+          <span class="text-blue-700">Dental Implants!</span>
         </h1>
 
         <p class="text-base text-white text-justify ">
@@ -30,7 +30,7 @@ import CallButton from "../ui/CallButton.vue";
 
         <div class="flex flex-col sm:flex-row gap-3 pt-4">
           <ConsultationButton class="flex-grow" />
-          <CallButton class="border border-white text-white  hover:bg-white hover:text-blue-600" />
+          <CallButton class="border border-white text-white  hover:bg-white hover:text-blue-700" />
         </div>
       </div>
     </div>

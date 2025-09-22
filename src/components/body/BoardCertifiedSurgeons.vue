@@ -36,7 +36,7 @@ const surgeons = [
         <div class="max-w-7xl mx-auto text-center space-y-6 w-full">
             <!-- Header -->
             <h1 class="text-4xl font-bold text-center">
-                Our Board <span class="text-highlight-blue">Certified</span> All-on-4™ Surgeons
+                Our Board <span class="text-blue-700">Certified</span> All-on-4™ Surgeons
             </h1>
             <p class="text-gray-700 text-lg max-w-3xl mx-auto w-full">
                 Our team of board-certified periodontists are experts in All-on-4™ dental implant surgeries. Each doctor
@@ -52,7 +52,7 @@ const surgeons = [
                         class="w-32 h-32 rounded-full object-cover shadow-md" />
                     <h3 class="text-lg font-semibold text-gray-900">{{ surgeon.name }}</h3>
                     <p class="text-sm text-gray-600">{{ surgeon.title }}</p>
-                    <p class="text-sm text-gray-500 italic">Periodontist</p>
+                    <p class="text-sm text-gray-500 italic">Periodontology</p>
                 </div>
             </div>
             <div class="pt-10">

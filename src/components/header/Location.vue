@@ -15,7 +15,7 @@ onClickOutside(locationsRef, () => (showLocations.value = false))
     <div class="relative" ref="locationsRef">
         <div class="hidden lg:flex flex-row gap-4">
             <div v-for="(place, index) in locations" :key="index" class="flex flex-row gap-1 items-center">
-                <MapPinIcon class="flex-none w-4 h-4 text-blue-500" />
+                <MapPinIcon class="flex-none w-4 h-4 text-blue-700" aria-hidden="true" />
                 <p class="text-sm">{{ place }}</p>
             </div>
         </div>
@@ -23,8 +23,8 @@ onClickOutside(locationsRef, () => (showLocations.value = false))
         <div class="flex lg:hidden flex-row items-center">
             <div class="relative" ref="locationsRef">
                 <button @click="showLocations = !showLocations"
-                    class="bg-blue-500 text-white p-2 rounded-full flex items-center justify-center transform transition-transform duration-200 active:scale-105">
-                    <MapPinIcon class="w-5 h-5" />
+                    class="bg-blue-700 text-white p-2 rounded-full flex items-center justify-center transform transition-transform duration-200 active:scale-105">
+                    <MapPinIcon class="w-5 h-5" aria-hidden="true" />
                 </button>
                 <Transition name="fade">
                     <div v-if="showLocations"
@@ -32,7 +32,7 @@ onClickOutside(locationsRef, () => (showLocations.value = false))
                         <div class="grid grid-cols-2 gap-2">
                             <div v-for="(place, index) in locations" :key="index"
                                 class="flex flex-row gap-1 items-center">
-                                <MapPinIcon class="w-4 h-4 text-blue-500" />
+                                <MapPinIcon class="w-4 h-4 text-blue-700" aria-hidden="true" />
                                 <p class="text-sm">{{ place }}</p>
                             </div>
                         </div>
