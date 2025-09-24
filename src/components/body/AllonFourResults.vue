@@ -8,16 +8,16 @@ const caseStudies = [
         title: `Smile <span class="text-blue-700">Restored</span> with All-on-4 After Decay-Full`,
         description: `Manhattan's very esthetics-oriented, had a lot of treatment done in Brazil (all upper teeth pulled out due to excessive decay-full upper denture). Upper jaw partial denture with metal clasps and remaining anterior teeth moderately periodontally involved. Now with a smile to be proud of.`,
         images: [
-            { src: "/copyparty/u/johnpaul.olimpo/allonfour/Before.webp", alt: "Before - Decay" },
-            { src: "/copyparty/u/johnpaul.olimpo/allonfour/After.webp", alt: "After - Restored" }
+            { src: "/allonfour/Before.webp", alt: "Before - Decay" },
+            { src: "/allonfour/After.webp", alt: "After - Restored" }
         ]
     },
     {
         title: `Smile <span class="text-blue-700">Restored</span> with All-on-4 After Periodontal Disease`,
         description: `Manhattan pt very esthetics-oriented, had a lot of treatment done in Brazil (all upper teeth pulled out due to excessive decay-full upper denture placed, lower jaw partial denture w/ metal clasps and remaining anterior teeth moderately periodontally involved). Now working on her lower jaw.`,
         images: [
-            { src: "/copyparty/u/johnpaul.olimpo/allonfour/Before.webp", alt: "Before - Periodontal" },
-            { src: "/copyparty/u/johnpaul.olimpo/allonfour/After.webp", alt: "After - Restored" }
+            { src: "/allonfour/Before.webp", alt: "Before - Periodontal" },
+            { src: "/allonfour/After.webp", alt: "After - Restored" }
         ]
     }
 ];

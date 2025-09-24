@@ -9,8 +9,7 @@ import Image from "../ui/Image.vue";
             class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start px-6 lg:px-12 py-10 w-full max-w-6xl mx-auto border border-gray-700/10 rounded-2xl">
             <!-- Image Section -->
             <div class="w-full">
-                <Image src="/copyparty/u/johnpaul.olimpo/allonfour/doctor-and-patient-1.webp"
-                    alt="Doctor with patient consultation"
+                <Image src="/allonfour/doctor-and-patient-1.webp" alt="Doctor with patient consultation"
                     className="rounded-lg shadow-md w-full h-auto object-cover" />
             </div>
 

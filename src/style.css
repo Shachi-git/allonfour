@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: url("/copyparty/u/johnpaul.olimpo/allonfour/Desktop-bg.webp");
+  --background: url("/allonfour/Desktop-bg.webp");
   --second-opinion-background: url("./assets/second-opinion-bg.webp");
   --text-gray: #6e6e6e;
   --highlight-blue: #1e70f5;

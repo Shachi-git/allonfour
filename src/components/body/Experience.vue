@@ -10,8 +10,8 @@ import Image from '../ui/Image.vue';
 
         <div class="lg:relative lg:max-w-[470px]">
             <div class="w-full p-1 lg:p-10">
-                <Image src="/copyparty/u/johnpaul.olimpo/allonfour/ALLAN-GALLAWAY-Experience.webp"
-                    alt="Dentist with patient" className="rounded-lg shadow-md w-full h-auto z-10 object-cover" />
+                <Image src="/allonfour/ALLAN-GALLAWAY-Experience.webp" alt="Dentist with patient"
+                    className="rounded-lg shadow-md w-full h-auto z-10 object-cover" />
                 <div
                     class="absolute top-2 left-2 md:top-0 md:left-0 bg-blue-700 text-white border-1 border-white p-6 rounded-full text-center">
                     <h2 class="text-xl font-bold leading-tight">
